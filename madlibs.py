@@ -30,9 +30,16 @@
 
 # print(f"The Hypotenuse of the triangle is {round(c, 2)}cm^2")
 
-response = input("Would you like some food: (Y/N))")
+# response = input("Would you like some food: (Y/N))")
 
-if response == "Y":
-    print("Have some food")
-else:
-    print("No food for you!")
+# if response == "Y":
+#     print("Have some food")
+# else:
+#     print("No food for you!")
+
+# name = input("Enter your name: ")
+
+# if name == "":
+#     print("You have no name")
+# else:
+#     print(f"Hello {name}")
