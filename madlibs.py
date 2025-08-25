@@ -10,24 +10,29 @@
 # print(f"{noun1} was {adjective2} and {verb1}")
 # print(f"I was {adjective3}!")
 
-import math
+# import math
 # print(math.pi)
 
-radius = float(input('Enter the radius of a circle: '))
+# radius = float(input('Enter the radius of a circle: '))
 
-circumference = 2 * math.pi * radius
+# circumference = 2 * math.pi * radius
 
-area = math.pi * pow(radius, 2)
+# area = math.pi * pow(radius, 2)
 
-print(f"The circumference is: {round(circumference, 2)}cm")
+# print(f"The circumference is: {round(circumference, 2)}cm")
 
-print(f"The area of the circle is: {round(area, 2)}cm^2")
+# print(f"The area of the circle is: {round(area, 2)}cm^2")
 
-a = float(input("Enter side A: "))
-b = float(input("Enter side B: "))
+# a = float(input("Enter side A: "))
+# b = float(input("Enter side B: "))
 
-c = math.sqrt(pow(a, 2) + pow(b, 2))
+# c = math.sqrt(pow(a, 2) + pow(b, 2))
 
-print(f"The Hypotenuse of the triangle is {round(c, 2)}cm^2")
+# print(f"The Hypotenuse of the triangle is {round(c, 2)}cm^2")
 
+response = input("Would you like some food: (Y/N))")
 
+if response == "Y":
+    print("Have some food")
+else:
+    print("No food for you!")
