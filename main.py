@@ -48,3 +48,16 @@ is_student = False
 # print(f"You have bought {quantity} x {item}/s")
 # print(f"Your total is: {total}")
 
+while True:
+
+    name = input("Enter your full name: ")
+
+    # result = len(name)
+    # result = name.find("p")
+    # result = name.rfind("t")
+    # result = name.capitalize()
+    # result = name.upper()
+    # result = name.isdigit()
+    result = name.isalpha()
+
+    print(result)
