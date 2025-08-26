@@ -48,16 +48,26 @@ is_student = False
 # print(f"You have bought {quantity} x {item}/s")
 # print(f"Your total is: {total}")
 
-while True:
+# while True:
 
-    name = input("Enter your full name: ")
+    # name = input("Enter your full name: ")
+
+    # phone_number = input("Enter a Phone Number or 'EXIT' to quit: ").strip()
+
+    # if phone_number.lower() == "exit":
+    #     print("Closing Application.... Byeee!")
+    #     break
+
 
     # result = len(name)
     # result = name.find("p")
     # result = name.rfind("t")
     # result = name.capitalize()
     # result = name.upper()
-    # result = name.isdigit()
-    result = name.isalpha()
+    # # result = name.isdigit()
+    # result = name.isalpha()
+    # result = phone_number.count("-")
+    # result = phone_number.replace("-", " ")
 
-    print(result)
+
+    # print(result)
