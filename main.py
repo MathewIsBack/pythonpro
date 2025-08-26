@@ -71,18 +71,27 @@ is_student = False
 
 
     # print(result)
-while True:
-    username = input("Please enter Username: ")
+# while True:
+#     username = input("Please enter Username: ")
 
     # result = len(username)
     # result = username.find(" ")
     # result = username.isalpha()
 
-    if len(username) > 12:
-        print("Username is more than 12 characters")
-    elif not username.find(" ") == -1:
-        print("Your username can't contain spaces")
-    elif not username.isalpha():
-        print("This username can't contain digits")
-    else:
-        print(username)
+    # if len(username) > 12:
+    #     print("Username is more than 12 characters")
+    # elif not username.find(" ") == -1:
+    #     print("Your username can't contain spaces")
+    # elif not username.isalpha():
+    #     print("This username can't contain digits")
+    # else:
+    #     print(username)
+
+# indexing
+credit_number = "1234-5678-9012-3456"
+
+# credit_number[:9]
+credit_number[::3]
+
+last_digits = credit_number[-4:]
+print(f"XXXX-XXXX-XXXX-{last_digits}")
