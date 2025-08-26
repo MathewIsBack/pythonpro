@@ -71,3 +71,18 @@ is_student = False
 
 
     # print(result)
+while True:
+    username = input("Please enter Username: ")
+
+    # result = len(username)
+    # result = username.find(" ")
+    # result = username.isalpha()
+
+    if len(username) > 12:
+        print("Username is more than 12 characters")
+    elif not username.find(" ") == -1:
+        print("Your username can't contain spaces")
+    elif not username.isalpha():
+        print("This username can't contain digits")
+    else:
+        print(username)
