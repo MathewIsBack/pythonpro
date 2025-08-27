@@ -108,11 +108,19 @@ is_student = False
 
 # draw a rectangle with any symbol
 
-rows = input("Enter the number of rows: ")
-columns = input("Enter the number of columns: ")
-symbol = input("Enter symbol you'll like to use: ")
+# rows = input("Enter the number of rows: ")
+# columns = input("Enter the number of columns: ")
+# symbol = input("Enter symbol you'll like to use: ")
 
-for x in range(int(rows)):
-    for y in range(int(columns)):
-        print(symbol, end="")
-    print()
+# for x in range(int(rows)):
+#     for y in range(int(columns)):
+#         print(symbol, end="")
+#     print()
+
+
+
+# collections
+
+# fruit = ["apple", "coconut", "pineapple", "orange"]
+
+# print(fruit[1:3:2])
