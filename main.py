@@ -99,5 +99,3 @@ is_student = False
 # print(f"XXXX-XXXX-XXXX-{last_digits}")
 
 
-
-
