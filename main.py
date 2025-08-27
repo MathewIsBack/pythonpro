@@ -124,3 +124,16 @@ is_student = False
 # fruit = ["apple", "coconut", "pineapple", "orange"]
 
 # print(fruit[1:3:2])
+
+groceries = [["apple","banana","orange","grape"], 
+             ["pineapple", "mango", "strawberry", "blueberry", "watermelon"],
+             ["peach", "pear", "kiwi", "coconut", "pomegranate"]]
+
+# print(groceries[2][3])
+
+for collection in groceries:
+    for fruits in collection:
+        print(fruits, end=" ")
+    print()
+
+
