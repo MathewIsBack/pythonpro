@@ -87,11 +87,17 @@ is_student = False
     # else:
     #     print(username)
 
+
+
 # indexing
-credit_number = "1234-5678-9012-3456"
+# credit_number = "1234-5678-9012-3456"
 
-# credit_number[:9]
-credit_number[::3]
+# # credit_number[:9]
+# credit_number[::3]
 
-last_digits = credit_number[-4:]
-print(f"XXXX-XXXX-XXXX-{last_digits}")
+# last_digits = credit_number[-4:]
+# print(f"XXXX-XXXX-XXXX-{last_digits}")
+
+
+
+
