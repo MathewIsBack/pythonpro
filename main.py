@@ -99,3 +99,20 @@ is_student = False
 # print(f"XXXX-XXXX-XXXX-{last_digits}")
 
 
+# Nested loops
+
+# for x in range(3):
+#     for y in range(1, 10):
+#         print(y, end="")
+#     print()
+
+# draw a rectangle with any symbol
+
+rows = input("Enter the number of rows: ")
+columns = input("Enter the number of columns: ")
+symbol = input("Enter symbol you'll like to use: ")
+
+for x in range(int(rows)):
+    for y in range(int(columns)):
+        print(symbol, end="")
+    print()
