@@ -125,15 +125,31 @@ is_student = False
 
 # print(fruit[1:3:2])
 
-groceries = [["apple","banana","orange","grape"], 
-             ["pineapple", "mango", "strawberry", "blueberry", "watermelon"],
-             ["peach", "pear", "kiwi", "coconut", "pomegranate"]]
+# groceries = [["apple","banana","orange","grape"], 
+#              ["pineapple", "mango", "strawberry", "blueberry", "watermelon"],
+#              ["peach", "pear", "kiwi", "coconut", "pomegranate"]]
 
 # print(groceries[2][3])
 
-for collection in groceries:
-    for fruits in collection:
-        print(fruits, end=" ")
-    print()
+# for collection in groceries:
+#     for fruits in collection:
+#         print(fruits, end=" ")
+#     print()
 
 
+
+# Dictionaries
+
+# capitals = {"USA":"Washington D.C",
+#             "India":"New Dehli",
+#             "China":"Beijing",
+#             "Russia":"Moscow"}
+
+# for key in capitals.keys():
+#     print(key)
+
+# for capital in capitals.values():
+#     print(capital)
+
+# for key, value in capitals.items():
+#     print(f"{key} : {value}")
