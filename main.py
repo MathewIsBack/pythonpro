@@ -170,6 +170,69 @@ is_student = False
 # print(cards)
 
 
+# Functions
+
+# def happy_birthday(name, age):
+#     print(f"Happy birthday to {name}!")
+#     print(f"You are {age} years old!")
+#     print("Happy birthday to you!")
+#     print()
+
+# happy_birthday("bro", 30)
+# happy_birthday("james", 50)
+# happy_birthday("sultan", 41)
+
+# Capitlizing a full name
+
+
+# def create_name(first, last):
+#     first = first.capitalize()
+#     last = last.capitalize()
+#     return first + " " + last
+
+# print(create_name("naga", "larry"))
+
+
+# import time 
+
+# def count(start, end):
+#     for x in range(start, end+1):
+#         print(x)
+#         time.sleep(1)
+#     print("done")
+
+# count(0,10)
+
+
+# get a phone number
+
+# def get_phone(country, area, first, last):
+#     return f"{country}-{area}-{first}-{last}"
+
+# phone_num = get_phone(1,234,567,89)
+
+# print(phone_num)
+
+
+
+# def add(*nums):
+#     total = 0
+#     for num in nums:
+#         total += num
+#     return total
+
+# print(add(4, 5))
+
+
+def name(*args):
+    for arg in args:
+        print(arg, end=" ")
+    
+name("dr","junir","paganini")    
+
+
+
+
 
 
 
