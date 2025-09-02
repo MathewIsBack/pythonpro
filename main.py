@@ -265,6 +265,61 @@ is_student = False
 #                )
 
 
+# grades = {
+#     "sandy": "A",
+#     "squidward": "B",
+#     "spongebob": "C",
+#     "patrick": "D"
+# }
+
+# student = input("Enter the name of the student: ").lower()
+
+# print(grades["Sandy"])
+
+# if student in grades:
+#     print(f"{student}'s grade is {grades[student]}")
+# else:
+#     print(f"{student} was not found")
+
+
+
+# List Comprehension
+
+# [Expression for value in iterable if condition]
+
+# doubles = [x * 2 for x in range(1, 11)]
+
+# squares = [z * z for z in range(1, 11)]
+
+# print(squares)
+
+# fruits = ["apple", "coconut", "banana", "pineapple"]
+
+# fruit_chars = [fruit[0] for fruit in fruits]
+
+# print(fruit_chars)
+
+
+# numbers = [-7, -1, -2, -4, 5, 9, 6, 3]
+
+# positive_num = [num for num in numbers if num >= 0]
+# negative_num = [num for num in numbers if num < 0]
+# even = [num for num in numbers if num % 2 == 0]
+# odd = [num for num in numbers if num % 2 == 1]
+
+# print(odd)
+
+
+grades = [86, 54, 67, 78, 29, 14, 43]
+
+passing_grades = [grade for grade in grades if grade >= 60] 
+
+print(passing_grades)
+
+
+
+
+
 
 
 
