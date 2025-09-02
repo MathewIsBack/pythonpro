@@ -224,13 +224,45 @@ is_student = False
 # print(add(4, 5))
 
 
-def name(*args):
-    for arg in args:
-        print(arg, end=" ")
+# def name(*args):
+#     for arg in args:
+#         print(arg, end=" ")
     
-name("dr","junir","paganini")    
+# name("dr","junir","paganini")    
 
 
+# def print_address(**kwargs):
+#     for key, values in kwargs.items():
+#         print(f"{key} : {values}")
+
+# print_address(
+#     street = "123 fake st",
+#     city = "Detroit",
+#     state = "MI",
+#     zip = "54321"
+# )
+
+
+# def shipping_label(*args, **kwargs):
+#     for arg in args:
+#         print(arg, end=" ")
+#     print()
+
+#     # for values in kwargs.values():
+#     #     print(values, end=" ")
+#     if "apt" in kwargs:
+#         print(f"{kwargs.get('street')} {kwargs.get('apt')}")
+#     else:
+#         print(f"{kwargs.get('street')}")
+#         print(f"{kwargs.get('city')} {kwargs.get('state')}, {kwargs.get('zip')}")
+
+# shipping_label("Dr.","Gaven","Hunt",
+#                 street = "123 fake st",
+#                 apt = "#78",
+#                 city = "Detroit",
+#                 state = "MI",
+#                 zip = "54321"
+#                )
 
 
 
