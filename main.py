@@ -310,12 +310,35 @@ is_student = False
 # print(odd)
 
 
-grades = [86, 54, 67, 78, 29, 14, 43]
+# grades = [86, 54, 67, 78, 29, 14, 43]
 
-passing_grades = [grade for grade in grades if grade >= 60] 
+# passing_grades = [grade for grade in grades if grade >= 60] 
 
-print(passing_grades)
+# print(passing_grades)
 
+
+# def is_weekend(day):
+#     match day:
+#         case "sunday" | "saturday":
+#             return True
+#         case "monday" | "tuesday" | "wednesday" | "thursday" | "friday":
+#             return False
+#         case _:
+#             return False
+        
+# print(is_weekend("saturday"))
+
+
+# CREATING YOUR OWN MODULES
+
+import module
+
+# result = module.area(12)
+# result = module.circumference(34)
+# result = module.cube(3)
+# result = module.square(5)
+
+# print(result)
 
 
 
