@@ -33,7 +33,7 @@ def main():
     print("**************************")
 
     while balance > 0:
-        print(f"Current balance: {balance}")
+        print(f"Current balance: ${balance}")
 
         bet = input("Place your bet amount: ")
 
@@ -62,7 +62,7 @@ def main():
         payout = get_payout(row, bet)
 
         if payout > 0:
-            print(f"Congrats!! You won {payout}")
+            print(f"Congrats!! You won ${payout}")
         else:
             print("Sorry you won nothing")
             
@@ -72,6 +72,13 @@ def main():
 
         if play_again != "Y":
             break
+
+    print("*********************")
+    # print("")
+    print("Game Over!!\n")
+    print(f"You balance is ${balance}")
+    print("*********************")
+    # print("")
 
 if __name__ == '__main__':
     main()
