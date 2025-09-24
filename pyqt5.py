@@ -12,14 +12,27 @@ class MainWindow(QMainWindow):
         self.setGeometry(700, 300, 500, 500)
         # self.setWindowIcon(QIcon("profilepic.jpg"))
 
-        label = QLabel("Hello", self)
-        label.setFont(QFont("Arial", 30))
-        label.setGeometry(0, 0, 500, 100)
-        label.setStyleSheet("color: #404142;"
-                            "background-color: #34ebc9;"
-                            "font-weight: bold;"
-                            "font-style: italic;"
-                            "text-decoration: underline;")
+        label = QLabel(self)
+        label.setGeometry(0, 0, 250, 250)
+
+        pixmap = QPixmap("profilepic.jpg")
+        label.setPixmap(pixmap)
+
+        label.setScaledContents(True)
+
+        label.setGeometry((self.width() - label.width()) // 2,
+                            (self.height() - label.height()) // 2,
+                            label.width(),
+                            label.height())
+
+        # label = QLabel("Hello", self)
+        # label.setFont(QFont("Arial", 30))
+        # label.setGeometry(0, 0, 500, 100)
+        # label.setStyleSheet("color: #404142;"
+        #                     "background-color: #34ebc9;"
+        #                     "font-weight: bold;"
+        #                     "font-style: italic;"
+        #                     "text-decoration: underline;")
         
         # label.setAlignment(Qt.AlignTop) #Vertically top
         # label.setAlignment(Qt.AlignBottom) #Vertically Bottom
