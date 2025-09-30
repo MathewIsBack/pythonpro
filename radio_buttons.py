@@ -43,7 +43,9 @@ class MainWindow(QMainWindow):
                            "}")
         
     def radio_button_changed(self):
-        print("You selected something")
+        radio_button = self.sender()
+        if radio_button.isChecked():
+            print(f"{radio_button.text()} is selected")
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
